@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on Celiasson - freelance developer</title>
+    <link>http://celiasson.se/portfolio/</link>
+    <description>Recent content in Portfolios on Celiasson - freelance developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Nov 2016 18:25:22 +0530</lastBuildDate>
+    
+	<atom:link href="http://celiasson.se/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>During my time at HiQ</title>
+      <link>http://celiasson.se/portfolio/work/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      
+      <guid>http://celiasson.se/portfolio/work/</guid>
+      <description>&lt;p&gt;HiQ is a larger consultant company where they help other companies digitalize themselves, or improve their already established digital world. This means that HiQ has their fingers in pretty much every industry and with an impressive range of cliens.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>frontend developer at CYBM</title>
+      <link>http://celiasson.se/portfolio/work2/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      
+      <guid>http://celiasson.se/portfolio/work2/</guid>
+      <description>&lt;p&gt;CYBM is a company that I&amp;rsquo;ve founded together with five other people where I carry the role as one of two app developers. we also have a designer, backend developer, and two sale managers who also act as product owners and project managers.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
