@@ -3,7 +3,7 @@ showonlyimage = false
 draft = false
 image = "img/portfolio/onewin.png"
 date = "2016-11-05T18:25:22+05:30"
-title = "frontend developer at CYBM"
+title = "Frontend developer at CYBM"
 weight = 0
 +++
 

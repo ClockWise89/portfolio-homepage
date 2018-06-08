@@ -1,5 +1,5 @@
-baseurl = "http://celiasson.se/"
-title = "Celiasson - freelance developer"
+baseurl = "codeandcrayons.se/"
+title = "CodeAndCrayons - freelance developer"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -12,7 +12,7 @@ googleAnalytics = ""
   # Use custom.css for your custom styling
   style = "violet"
   description = "Portfolio"
-  copyright = "&copy;2017 Celiasson"
+  copyright = "&copy;2018 CodeAndCrayons"
   sidebarAbout = [
     "I am a programmer with five years of game programming studies and 3 years of frontend development experience within the iOS platform.",
 	"I create digital solutions with focus on app development, and reside in Gothenburg, Sweden."
@@ -29,11 +29,11 @@ googleAnalytics = ""
      # - send a dummy email yourself to confirm your account
      # - click the confirm link in the email from www.formspree.io
      # - you're done. Happy mailing!
-  email = "christopher.eliasson@celiasson.se"
+  email = "christopher@codeandcrayons.se"
 
   # Nav links in the side bar
   [[params.navlinks]]
-  name = "Home"
+  name = "Portfolio"
   url = ""
 
   [[params.navlinks]]
@@ -41,10 +41,14 @@ googleAnalytics = ""
   url = "about/"
 
   [[params.navlinks]]
-  name = "Get in touch"
+  name = "Expertise"
+  url = "expertise/"
+
+  [[params.navlinks]]
+  name = "Contact"
   url = "contact/"
 
   [params.social]
-  email         = "christopher.eliasson@celiasson.se"
+  email         = "christopher@codeandcrayons.se"
   twitter       = "https://twitter.com/CodeNCrayons"
   linkedin      = "https://www.linkedin.com/in/christopher-eliasson-b1b192a3/"

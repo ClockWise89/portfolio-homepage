@@ -3,7 +3,7 @@ showonlyimage = false
 draft = false
 image = "img/portfolio/hiq.jpg"
 date = "2016-11-05T18:25:22+05:30"
-title = "During my time at HiQ"
+title = "Frontend developer at HiQ International AB"
 weight = 0
 +++
 

@@ -1,6 +1,6 @@
 +++
 date = "2016-11-05T21:05:33+05:30"
-title = "Celiasson"
+title = "CodeAndCrayons"
 +++
 
 The guy behind **Celiasson** is me, Christopher Eliasson, a 28 year old swedish country lad who moved to the big city of Gothenburg in order to make a name of himself. Actually, first I stopped by Karlskrona for five years honing my skills in game programming, at the Civilengineering in Game and Software development programme at Blekinges Institute of Technology. Throughout my studies I've made modest attempts at C, C#, C++, Assembly, HTML, CSS, Java, PHP, SQL, and DirectX.
