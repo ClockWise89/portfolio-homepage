@@ -1,4 +1,4 @@
-baseurl = "codeandcrayons.se"
+baseurl = "http://codeandcrayons.se"
 title = "Code and Crayons - freelance developer"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
