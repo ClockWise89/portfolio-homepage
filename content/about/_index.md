@@ -1,14 +1,18 @@
 +++
-date = "2016-11-05T21:05:33+05:30"
-title = "CodeAndCrayons"
+date = "2018-06-10T10:00:33+05:30"
+title = "Code and Crayons"
 +++
 
-The guy behind **Celiasson** is me, Christopher Eliasson, a 28 year old swedish country lad who moved to the big city of Gothenburg in order to make a name of himself. Actually, first I stopped by Karlskrona for five years honing my skills in game programming, at the Civilengineering in Game and Software development programme at Blekinges Institute of Technology. Throughout my studies I've made modest attempts at C, C#, C++, Assembly, HTML, CSS, Java, PHP, SQL, and DirectX.
+The guy behind **Code and Crayons** is me - Christopher. I reside in Gothenburg, Sweden, together with my fiancé, our daughter, and our cat. I am an avid gamer and technology enthusiast which, of course, greatly influenced my career choice.
 
-After my studies I made some half hearted attempts to get into the game development industry, but eventually landed an opportunity to start my career as a mobile app developer at HiQ International. The next 3 years I spent learning the iOS platform, Objective-C and Swift, with ton of different tools and libraries. I've gathered experience in Unity3D, Git, Xamarin, continuous integration tools like buddybuild, distribution tools such as HockeyApp, or data gathering tools like Google Analytics, Firebase, Google Tag Manager, and Crashlytics. Not to mention working closely with android- and .net developers, designers and UX experts.
+I started my career by studying Civilengineering in Game and Software Development at Blekinge Institute of Technology in Karlskrona, Sweden. It was a five year long education with focus on C++ and game development. When I completed my studies I moved back to Gothenburg looking for employment within game industry, but it was a lot harder to find employment within this field than I had imagined. I was eventually offered a position at New Minds AB and started my career as a mobile developer which I have been working as for the past four years.
 
-During my sparetime I still spend a lot of time working with different projects. I contantly try to learn new tools or techniques, and some of my most recent unfinished projects include more complex delving into the Firebase tool, node.js for backend programming, and the next endavour will be to check out Kotlin for android applications. When I don't programme I exercise, play video games (or code them), or watch superhero movies.
+During my years as an mobile developer I have had the opportunity to work for a range od companies, with various sizes, such as Electrolux, SKF, Essgroup, Parkeringsbolaget, and many others.
+
+I am currently employed at [Northcube AB][2] as an iOS developer where I work on [Life Cycle][3].
 
 ![This is me][1]
 
 [1]: img/me.png
+[2]: http://northcube.com
+[3]: https://itunes.apple.com/us/app/life-cycle-track-your-time/id1064955217?mt=8
