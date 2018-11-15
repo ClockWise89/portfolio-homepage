@@ -19,7 +19,7 @@ During my years as an iOS developer I have come across a various range of techno
 	+ SQL (Basic, < 1 year)
 	+ Python (Basic, < 1 year)
 * **Frameworks**
-	* DirectX (Basic, ~1 year)
+	* DirectX10 and DirectX11 (Basic, ~1 year)
 	* SFML (Basic, < 1 year)
 	* FMOD (Basic, < 1 year)
 	* Qt (Basic, < 1 year)
@@ -29,6 +29,7 @@ During my years as an iOS developer I have come across a various range of techno
 	* HockeyApp
 	* Buddybuild
 	* Google API's
+	* Flurry
 * **Tools**
 	* Unity3D (Basic, ~1 year)
 	* Xcode
@@ -43,6 +44,9 @@ During my years as an iOS developer I have come across a various range of techno
 	* MySQL
 	* JIRA
 	* Pivotal Tracker
+	* Hansoft
+	* Trello
+	* Microsoft TFS
 * **Competences**
 	* Game development
 	* Frontend development

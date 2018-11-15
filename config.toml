@@ -14,7 +14,7 @@ googleAnalytics = ""
   description = "Portfolio"
   copyright = "&copy;2018 CodeAndCrayons"
   sidebarAbout = [
-    "I am a programmer with five years of game programming studies and over 4 years of frontend development experience within the mobile platforms.",
+    "I am a frontend programmer with five years of game programming education and over 4 years of development experience within mobile platforms.",
 	"I create digital solutions with focus on app development, and reside in Gothenburg, Sweden."
   ]
   # Contact page
@@ -55,4 +55,4 @@ googleAnalytics = ""
   [params.social]
   email         = "christopher@codeandcrayons.se"
   twitter       = "https://twitter.com/CodeNCrayons"
-  linkedin      = "https://www.linkedin.com/in/christopher-eliasson-b1b192a3/"
+  linkedin      = "https://www.linkedin.com/in/christopher-vikner-b1b192a3/"
