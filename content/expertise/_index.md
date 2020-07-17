@@ -7,7 +7,7 @@ During my years as an iOS developer I have come across a various range of techno
 
 * **Programming skills**
 	+ Objective-C (Well versed, ~4 years full time)
-	+ Swift (Well versed, ~4 years full time)
+	+ Swift (Well versed, +5 years full time)
 	+ C++ (Intermediate, ~4 years on and off during studies)
 	+ C# (Basic, ~1 year)
 	+ Java (Basic, < 1 year)
