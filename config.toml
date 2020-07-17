@@ -1,5 +1,5 @@
 baseurl = "http://codeandcrayons.se/"
-title = "Code and Crayons - freelance developer"
+title = "Code and Crayons - App developer"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -7,12 +7,15 @@ disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
+[markup]
+  defaultMarkdownHandler = "blackfriday"
+
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "violet"
   description = "Portfolio"
-  copyright = "&copy;2018 CodeAndCrayons"
+  copyright = "&copy;2020 CodeAndCrayons"
   sidebarAbout = [
     "I am a frontend programmer with five years of game programming education and over 4 years of development experience within mobile platforms.",
 	"I create digital solutions with focus on app development, and reside in Gothenburg, Sweden."
@@ -35,6 +38,7 @@ googleAnalytics = ""
   [[params.navlinks]]
   name = "Portfolio"
   url = ""
+  home = true
 
   [[params.navlinks]]
   name = "About"
