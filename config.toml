@@ -17,7 +17,7 @@ googleAnalytics = ""
   description = "Portfolio"
   copyright = "&copy;2020 CodeAndCrayons"
   sidebarAbout = [
-    "I am a frontend programmer with five years of game programming education and over 4 years of development experience within mobile platforms.",
+    "Frontend programmer with five years of game programming education, and since 2014 works fulltime with developing applications for mobile platforms.",
 	"I create digital solutions with focus on app development, and reside in Gothenburg, Sweden."
   ]
   # Contact page
