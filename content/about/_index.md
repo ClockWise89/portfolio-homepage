@@ -22,4 +22,4 @@ After HiQ I decided to try my luck at a product company instead, and found [Slee
 
 
 [2]: https://www.sleepcycle.com/
-[3]: hhttps://itunes.apple.com/app/apple-store/id320606217
+[3]: https://itunes.apple.com/app/apple-store/id320606217

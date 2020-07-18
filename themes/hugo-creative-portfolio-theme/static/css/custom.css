@@ -24,6 +24,23 @@
 	text-align: center;
 }
 
+.store {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+img.app_store {
+	height: 30%;
+	width: 30%;
+}
+
+img.google_play {
+	height: 38%;
+	width: 38%;
+}
+
 img {
 	max-width: 100%;
 }
