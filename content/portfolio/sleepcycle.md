@@ -23,12 +23,12 @@ Over the years the app grew to be so much more, and the last couple of years the
 The app has truly become a tool set for your use to tackle issues with your sleep, or just keep track of it to notice deviations to your sleeping patterns - and what might have been the source for these deviations. Sleep Cycle is the most advanced sleeping app on the market with millions of daily users.
 
 <div class="store">
-<a href="https://itunes.apple.com/app/apple-store/id320606217">
-  <img class="app_store" src="../img/general/download_app_store.png" alt="iTunes logo">
-</a>
-<a href="https://play.google.com/store/apps/details?id=com.northcube.sleepcycle">
-  <img class="google_play" src="../img/general/download_google_play.png" alt="iTunes logo">
-</a>
+	<a href="https://itunes.apple.com/app/apple-store/id320606217">
+  		<img class="app_store" src="../img/general/download_app_store.png" alt="iTunes logo">
+	</a>
+	<a href="https://play.google.com/store/apps/details?id=com.northcube.sleepcycle">
+  		<img class="google_play" src="../img/general/download_google_play.png" alt="Google logo">
+	</a>
 </div>
 
 
