@@ -53,6 +53,5 @@ googleAnalytics = ""
   url = "contact/"
 
   [params.social]
-  email         = "christopher@codeandcrayons.se"
-  twitter       = "https://twitter.com/CodeNCrayons"
+  email         = "christophereliasson@gmail.com"
   linkedin      = "https://www.linkedin.com/in/christopher-vikner-b1b192a3/"
