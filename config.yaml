@@ -1,0 +1,36 @@
+baseURL: http://codeandcrayons.se/
+
+languageCode: en-us
+theme: toha-3.8.0
+
+title: "Code and Crayons"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# At least HTML and JSON are required for the main HTML content and
+# client-side JavaScript search
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+
+
+# Site parameters
+params:
+  # Configure the number of section title visible in the top navbar
+  topNavbar:
+    maxVisibleSections: 5
+
+  newsletter:
+    enable: false
+
+  # Configure various features of this theme
+  darkMode:
+    enable: true
+    provider: darkreader
+    default: dark

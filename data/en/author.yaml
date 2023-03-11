@@ -1,0 +1,17 @@
+name: "Christopher Vikner"
+
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+
+contactInfo:
+  email: christophereliasson@gmail.com
+  stack-overflow:
+    icon: stack-overflow
+    url: "https://stackoverflow.com/users/1/exampleUser"
+    text: "ExampleUser"
+    
+# a summary of what you do
+summary:
+- I am a native app developer
+- I work with iOS and Android
+- I love to work with some fun projects
