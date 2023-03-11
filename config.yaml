@@ -22,6 +22,8 @@ outputs:
 
 # Site parameters
 params:
+  background: "images/slategray_bg.jpg"
+
   # Configure the number of section title visible in the top navbar
   topNavbar:
     maxVisibleSections: 5
