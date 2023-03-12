@@ -11,15 +11,10 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Huawei / Google Play / App Store
-  logo: /images/sections/skills/appstore.png
-  summary: "I have experience on all stores, but deploying and managing has primarily been done on App Store."
-  url: "https://kubernetes.io/"
 
 - name: Swift
   logo: /images/sections/skills/swift.png
   summary: "Using as main language for professional development on iOS, and the language I have used the most these past years."
-  url: "https://golang.org/"
 
 - name: Objective-C
   logo: /images/sections/skills/objc.png
@@ -28,21 +23,18 @@ skills:
 - name: Kotlin
   logo: /images/sections/skills/kotlin.png
   summary: "The past few years I have been focusing on Android and Kotlin is the main programming language I have used. I do have some experience with JAVA as well though."
-  url: "https://www.docker.com/"
 
-- name: Unity
-  logo: /images/sections/skills/unity.png
-  summary: "By no means new to me, since I have dabbled in it on and off for the past 10 years. But the past year I have been more serious, and really focued on learning this platform for developing games."
-  url: "https://prometheus.io/"
-
-- name: JIRA + Confluence
-  logo: /images/sections/skills/jira.png
-  summary: "The issue tracker, and documentation tool, we have used the most at Sleep Cycle."
+- name: Huawei / Google Play / App Store
+  logo: /images/sections/skills/appstore.png
+  summary: "I have experience on all stores, but deploying and managing has primarily been done on App Store."
 
 - name: Git
   logo: /images/sections/skills/git.png
   summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
+
+- name: Unity
+  logo: /images/sections/skills/unity.png
+  summary: "By no means new to me, since I have dabbled in it on and off for the past 10 years. But the past year I have been more serious, and really focued on learning this platform for developing games."
 
 - name: C/C++
   logo: /images/sections/skills/c++.png
@@ -51,3 +43,7 @@ skills:
 - name: C#
   logo: /images/sections/skills/csharp.png
   summary: "Mainly used for programming in Unity, but also what I used for my masters project."
+
+- name: JIRA + Confluence
+  logo: /images/sections/skills/jira.png
+  summary: "The issue tracker, and documentation tool, we have used the most at Sleep Cycle."
