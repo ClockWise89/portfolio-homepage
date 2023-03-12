@@ -2,6 +2,7 @@ name: "Christopher"
 
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I'm"
+image: "images/author/chris.png"
 
 contactInfo:
   email: christopher.eliasson@gmail.com
