@@ -5,7 +5,7 @@ greeting: "Hi, I'm"
 image: "images/author/chris.png"
 
 contactInfo:
-  email: christopher.eliasson@gmail.com
+  email: "christopher.vikner@gmail.com"
   stack-overflow:
     icon: stack-overflow
     url: "https://stackoverflow.com/users/4148782/clockwise"

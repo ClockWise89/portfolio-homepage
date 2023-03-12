@@ -8,10 +8,10 @@ section:
   template: sections/about.html
 
 # your designation
-designation: App developer
+designation: Mobile App developer
 # your company information
 company:
-  name: Sleep Cycle AB
+  name: Sleep Cycle AB - Living in Skövde, Sweden
   url: "https://www.sleepcycle.com"
 
 # your resume. this file path should be relative to you "static" directory
@@ -26,7 +26,7 @@ resume: "files/resume.pdf"
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "christopher.eliasson@gmail.com"
+  url: "christopher.vikner@gmail.com"
 
 - name: Github
   icon: "fab fa-github"

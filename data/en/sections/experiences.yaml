@@ -11,54 +11,61 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: Sleep Cycle AB
+    url: "https://www.sleepcycle.com"
+    location: Gothenburg, Sweden
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: Sleep Cycle AB is a world leading tech company within the space of sleep tracking. They build the mobile application Sleep Cycle which tracks, and analyses the users sleep.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Mobile Applications Developer
+    start: Aug 2017
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
+    - Implementing, and testing, features on iOS using Objective-C and Swift.
+    - Implementing, and testing, features on Android using Java, and Kotlin.
+    - Developing features with focus on App Experience.
+    - Developing features with focus on business to business.
+    - Developing features with focus on growth.
+    - Minor backend implementations using Python3.
+    - Remote config and analytics implementations.
+- company:
+    name: HiQ AB
+    url: "https://hiq.se/"
+    location: Gothenburg, Sweden
+    overview: HiQ is a consultant company within the tech space with employees as well as clients all over the globe.
+  positions:
+  - designation: Mobile Applications Developer
+    start: Okt 2015
+    end: Jun 2017
     responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Implementing, and testing, features in client iOS applications using Objective-C and Swift.
+    - Partake in weekly meetings with both clients and HiQ regarding progress in different projects.
+    - Releasing applications for clients using various tools like Buddybuild and HockeyApp (Visual Studio App Center).
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: New Minds AB
+    url: "https://newminds.se/"
+    location: Gothenburg, Sweden
+    overview: New Minds is a company which helps newly graduated tech students get into the industry.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Junior Software Developer
+    start: Sep 2014
+    end: Okt 2015
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Programming their mobile application, JAPPA, for iOS and Android using C# and Xamarin.
+    - Programming native mobile applications for iOS, using Objective-C and Swift.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: Mjölnir Games
+    location: Karlskrona, Sweden
+    overview: Independent game studio working on an extracurricular "school project".
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Co-owner
+    start: Aug 2013
+    end: May 2014
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Development in Unity using C#.
+    - Testing of level design.
+    - Corporate management.
