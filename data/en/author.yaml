@@ -1,7 +1,7 @@
-name: "Christopher Vikner"
+name: "Christopher"
 
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I am"
+greeting: "Hi, I'm"
 
 contactInfo:
   email: christophereliasson@gmail.com
@@ -12,6 +12,6 @@ contactInfo:
     
 # a summary of what you do
 summary:
-- I am a native app developer
-- I work with iOS and Android
-- I love to work with some fun projects
+- I'm a mobile app developer
+- I work with iOS and Android natively
+- I love what I do
