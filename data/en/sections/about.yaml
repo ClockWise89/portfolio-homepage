@@ -11,15 +11,14 @@ section:
 designation: Mobile App developer
 # your company information
 company:
-  name: Sleep Cycle AB - Living in Skövde, Sweden
-  url: "https://www.sleepcycle.com"
+  name: Christopher Vikner AB - Living in Skövde, Sweden
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate mobile app developer with 9 years of working experience, with a five-year-long game programming education as a foundation. The first few years I worked as an consultant, helping businesses of varying sizes with their mobile applications. For the past 6 years I have been at Sleep Cycle, hard at work trying to help the world reach better sleep. In recent years I have also dabbled a bit in Unity developing games.'
+summary: 'I am a passionate mobile app developer with 9 years of working experience, with a five-year-long game programming education as a foundation. The first few years I worked as a consultant, helping businesses of varying sizes with their mobile applications. Currently I am self employed working as an consultant.'
 resume: "files/resume.pdf"
 # your social links
 # give as many as you want. use font-awesome for the icons.

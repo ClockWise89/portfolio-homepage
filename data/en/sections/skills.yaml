@@ -22,7 +22,7 @@ skills:
 
 - name: Kotlin
   logo: /images/sections/skills/kotlin.png
-  summary: "The past few years I have been focusing on Android and Kotlin is the main programming language I have used. I do have some experience with JAVA as well though."
+  summary: "The past few years I have been focusing on Android, where Kotlin has been the main programming language. I do have experience with JAVA as well though."
 
 - name: Huawei / Google Play / App Store
   logo: /images/sections/skills/appstore.png
@@ -30,20 +30,20 @@ skills:
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  summary: "Experienced with git-based development, primarily using GitHub, but I am no stranger to GitLab either."
 
 - name: Unity
   logo: /images/sections/skills/unity.png
-  summary: "By no means new to me, since I have dabbled in it on and off for the past 10 years. But the past year I have been more serious, and really focued on learning this platform for developing games."
+  summary: "By no means new to me, since I have dabbled in it on and off for the past 10 years. But the past year I have been more serious, and really focused on learning this platform for developing games."
 
 - name: C/C++
   logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used as the primary language when studing my M.S.E for five years. Nothing I have used professionally though."
+  summary: "Know basic C/C++ programming. Used as the primary language when studing my M.S.E. Nothing I have used professionally though."
 
 - name: C#
   logo: /images/sections/skills/csharp.png
-  summary: "Mainly used for programming in Unity, but also what I used for my masters project."
+  summary: "Mainly used for programming in Unity, but also what I used for my masters thesis project."
 
 - name: JIRA + Confluence
   logo: /images/sections/skills/jira.png
-  summary: "The issue tracker, and documentation tool, we have used the most at Sleep Cycle."
+  summary: "The issue tracker, and documentation tool, I used primarily at Sleep Cycle."

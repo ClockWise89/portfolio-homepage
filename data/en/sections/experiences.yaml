@@ -11,14 +11,23 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Christopher Vikner AB
+    location: Skövde, Sweden
+    # company overview
+    overview: My own consultant company, focusing on native app development.
+  positions:
+  - designation: Mobile Applications Developer
+    start: May 2023
+- company:
     name: Sleep Cycle AB
     url: "https://www.sleepcycle.com"
     location: Gothenburg, Sweden
     # company overview
-    overview: Sleep Cycle AB is a world leading tech company within the space of sleep tracking. They build the mobile application Sleep Cycle which tracks, and analyses the users sleep.
+    overview: Sleep Cycle AB is a world leading tech company, within the space of sleep tracking. They develop the mobile application Sleep Cycle, which tracks, and analyses the users sleep.
   positions:
   - designation: Mobile Applications Developer
     start: Aug 2017
+    end: May 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
@@ -34,14 +43,14 @@ experiences:
     name: HiQ AB
     url: "https://hiq.se/"
     location: Gothenburg, Sweden
-    overview: HiQ is a consultant company within the tech space with employees as well as clients all over the globe.
+    overview: HiQ is a consultant company within the tech space, with employees as well as clients all over the globe.
   positions:
   - designation: Mobile Applications Developer
     start: Okt 2015
     end: Jun 2017
     responsibilities:
     - Implementing, and testing, features in client iOS applications using Objective-C and Swift.
-    - Partake in weekly meetings with both clients and HiQ regarding progress in different projects.
+    - Partake in weekly meetings with both clients and HiQ, regarding progress in different projects.
     - Releasing applications for clients using various tools like Buddybuild and HockeyApp (Visual Studio App Center).
 
 - company:
@@ -60,7 +69,7 @@ experiences:
 - company:
     name: Mjölnir Games
     location: Karlskrona, Sweden
-    overview: Independent game studio working on an extracurricular "school project".
+    overview: Independent game development studio, working on an extracurricular "school project".
   positions:
   - designation: Co-owner
     start: Aug 2013
