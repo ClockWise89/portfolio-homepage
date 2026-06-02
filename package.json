@@ -1,10 +1,9 @@
 {
-  "comments": {
-    "dependencies": {},
-    "devDependencies": {}
-  },
-  "dependencies": {},
-  "devDependencies": {},
   "name": "portfolio-homepage",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "hugo --minify",
+    "serve": "hugo server --disableFastRender"
+  }
 }
