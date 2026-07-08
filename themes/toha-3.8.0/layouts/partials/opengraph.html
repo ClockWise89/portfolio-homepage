@@ -1,12 +1,36 @@
-{{ $title       :=  (index site.Data site.Language.Lang).site.openGraph.title | default site.Title }}
-{{ $type        :=  (index site.Data site.Language.Lang).site.openGraph.type | default "website" }}
-{{ $description :=  (index site.Data site.Language.Lang).site.openGraph.description | default  (index site.Data site.Language.Lang).site.description }}
-{{ $image       :=  (index site.Data site.Language.Lang).site.openGraph.image | default  (index site.Data site.Language.Lang).author.image }}
-{{ $url         :=  (index site.Data site.Language.Lang).site.openGraph.url | default site.BaseURL }}
+{{ $siteData    := index site.Data site.Language.Lang }}
+{{ $title       := $siteData.site.openGraph.title | default site.Title }}
+{{ $type        := $siteData.site.openGraph.type | default "website" }}
+{{ $description := $siteData.site.openGraph.description | default $siteData.site.description }}
+{{ $image       := $siteData.site.openGraph.image | default $siteData.author.image }}
+{{ $url         := $siteData.site.openGraph.url | default site.BaseURL }}
+
+{{ if .IsPage }}
+    {{ $title = .Title }}
+    {{ $type = "article" }}
+    {{ with .Summary }}
+        {{ $description = . | plainify | replaceRE "\\s+" " " | replaceRE "^\\s+|\\s+$" "" }}
+    {{ end }}
+    {{ with .Params.image }}
+        {{ $image = . }}
+    {{ end }}
+    {{ $url = .Permalink }}
+{{ else if not .IsHome }}
+    {{ $title = .Title }}
+    {{ with .Summary }}
+        {{ $description = . | plainify | replaceRE "\\s+" " " | replaceRE "^\\s+|\\s+$" "" }}
+    {{ end }}
+    {{ $url = .Permalink }}
+{{ end }}
 
 <!-- ============ open graph tags ========== -->
 <meta property="og:title" content="{{ $title }}"/>
 <meta property="og:type" content="{{ $type }}"/>
 <meta property="og:description" content="{{ $description }}"/>
-<meta property="og:image" content="{{ $image | absURL }}">
+{{ with $image }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
 <meta property="og:url" content="{{ $url }}">
+{{ if .IsPage }}
+    {{ with .Section }}<meta property="article:section" content="{{ . }}">{{ end }}
+    {{ with .PublishDate }}<meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
+    {{ with .Lastmod }}<meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
+{{ end }}

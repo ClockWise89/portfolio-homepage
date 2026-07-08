@@ -10,6 +10,8 @@ hugo --minify
 
 The generated `public/` directory is ignored and should not be committed.
 
+The GitHub Pages workflow pins Hugo Extended `0.113.0`.
+
 ## Production
 
 - Repository: `ClockWise89/portfolio-homepage`
