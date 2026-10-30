@@ -5,6 +5,15 @@ theme: toha-3.8.0
 
 title: "Code and Crayons"
 
+# Publish the existing resume without relocating or changing the document.
+module:
+  mounts:
+    - source: static
+      target: static
+    - source: files
+      target: static/files
+      includeFiles: resume.pdf
+
 markup:
   goldmark:
     renderer:
