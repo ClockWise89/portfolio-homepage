@@ -44,8 +44,9 @@ portfolio content, design, unrelated repositories, or vault files will be change
 
 - [x] Inspect baseline, PR history, hosting, alerts, and read-only vault context.
 - [x] Implement targeted dependency and workflow changes.
-- [ ] Complete local validation and independent review.
-- [ ] Open PR, pass CI, merge, and verify real deployment/alert state.
+- [x] Complete local validation and independent review.
+- [x] Open PR, pass CI, merge, and verify real production deployment.
+- [ ] Confirm GitHub closes the four alert records; patched graph verified, no dismissals.
 
 ## Findings And Decisions
 
@@ -63,3 +64,22 @@ portfolio content, design, unrelated repositories, or vault files will be change
   files); seven smoke tests pass; actionlint and diff whitespace checks pass.
   Compared against a separately archived/built production baseline: generated
   output is byte-identical except the newly published, unchanged resume PDF.
+
+## Docs-Only Continuation
+
+- User authorized bounded ticket-readiness preparation on a new branch from
+  deployed `master` (`8305d1276e06b361d4b03c7ac09266829bf18b46`).
+- Goal: minimal self-contained `AGENTS.md`/`WORKFLOWS.md`, plus an unchanged copy
+  of the canonical personal-core routing policy (2026-10-30) at
+  `.agents/MODEL_ROUTING.toml`; no runtime private-workflow checkout dependency.
+- Preserve master-only branching, site/domain/theme/Hugo pins, current commands,
+  exact vault project context, safety rules, and mandatory current-SHA PR review.
+- Validate docs paths/commands, canonical TOML identity and parsing, diff checks;
+  no site/runtime/pipeline changes and no full site validation rerun.
+- Commit and return a review-ready checkpoint before push/PR. Parent's Hegel
+  reviews only this four-file continuation; parent continues to own vault edits.
+- Prior scope: PR #4 merged/deployed as the SHA above; seven tests/audit passed.
+- Checkpoint: `docs/T-004-agent-workflow`, instructions/routing 146 lines;
+  canonical byte comparison, TOML parsing, path/npm-script/command checks, and
+  whitespace checks pass. Unpushed by explicit request pending parent's scoped
+  review; next step is review, then authorized push/PR/comment/CI/merge.
