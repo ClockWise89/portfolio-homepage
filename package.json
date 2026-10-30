@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "hugo --minify",
-    "serve": "hugo server --disableFastRender"
+    "serve": "hugo server --disableFastRender",
+    "test": "node --test scripts/validate-site.test.mjs"
   }
 }
