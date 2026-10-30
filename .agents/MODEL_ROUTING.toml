@@ -1,0 +1,97 @@
+# Source policy for model-routed Codex work.
+# This file is not a Codex config fragment. Do not merge it into config.toml.
+# Repo-local copies are written to .agents/MODEL_ROUTING.toml.
+
+schema_version = 1
+policy_version = "2026-10-30"
+
+[defaults]
+speed = "normal"
+fallback_behavior = "Use the closest available model in the same cost/capability class when an exact model is not exposed by the current Codex runtime."
+
+[roles.main_orchestrator]
+model = "gpt-6.1-sol"
+reasoning = "high"
+use_for = [
+  "task decomposition",
+  "architecture-sensitive coordination",
+  "integration judgment",
+  "final user summary",
+]
+notes = "Planning and coordination use this route; implementation uses standard_worker (GPT-6.1 Sol, high reasoning)."
+
+[roles.cheap_explorer]
+model = "gpt-5.6-luna"
+reasoning = "low"
+fallback_models = ["gpt-5.4-mini", "gpt-5.3-codex-spark"]
+use_for = [
+  "file inventory",
+  "symbol search",
+  "routine docs lookup",
+  "vault markdown updates",
+  "simple status checks",
+]
+
+[roles.validation_agent]
+model = "gpt-5.6-luna"
+reasoning = "low"
+fallback_models = ["gpt-5.4-mini", "gpt-5.3-codex-spark"]
+use_for = [
+  "build command execution",
+  "test command execution",
+  "lint command execution",
+  "verbose log summarization",
+  "pass/fail checking",
+]
+
+[roles.standard_worker]
+model = "gpt-6.1-sol"
+reasoning = "high"
+use_for = [
+  "scoped implementation",
+  "focused tests",
+  "small refactors",
+  "template updates",
+]
+
+[roles.code_reviewer]
+model = "gpt-6.1-sol"
+reasoning = "xhigh"
+use_for = [
+  "PR review",
+  "changed-file risk review",
+  "production-impacting bug search",
+]
+notes = "Use GPT-6.1 Sol on extra-high (xhigh) reasoning for review work. If Sol is unavailable, use the closest available review-capable model and mention the fallback."
+
+[roles.cleanup_reviewer]
+model = "gpt-6.1-sol"
+reasoning = "xhigh"
+use_for = [
+  "cleanup checklist within the code_reviewer pass",
+  "standalone cleanup-only work",
+]
+notes = "For PRs, include cleanup in the single code_reviewer pass; do not run an additional model review."
+
+[roles.deep_specialist]
+model = "gpt-6.1-sol"
+reasoning = "high"
+use_for = [
+  "architecture planning",
+  "security and privacy planning",
+  "hard debugging analysis",
+  "complex implementation and hard debugging fixes",
+  "multi-repo behavior planning",
+  "destructive workflow design",
+]
+notes = "Deep planning and implementation use Sol/high; use standard_worker for scoped implementation."
+
+[roles.deep_max]
+model = "gpt-6.1-sol"
+reasoning = "high"
+use_for = [
+  "rare ambiguous architecture decisions",
+  "high-risk security decisions",
+  "analysis and planning for difficult failures after a deep attempt",
+]
+notes = "High-risk planning and implementation use the same Sol/high route as deep_specialist."
