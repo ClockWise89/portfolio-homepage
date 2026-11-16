@@ -10,13 +10,12 @@ section:
   # hideTitle: true
 
 degrees:
-- name: M.S.E in Games & Software Engineering
+- name: M.S.E in Games & Software Engineering (unfinished)
   icon: fa-microscope
-  timeframe: 2009-2014
+  timeframe: Aug 2009 - Jun 2014
   institution:
-    name: Blekinge Institute of Technology 
+    name: Blekinge Institute of Technology
     url: "https://www.bth.se/"
-    description: "Test teste test"
   publications: #(optional)
   - title: Natural Language Generation for descriptive texts in interactive games
     url: "https://www.diva-portal.org/smash/get/diva2:833041/FULLTEXT01.pdf"

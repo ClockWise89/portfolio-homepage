@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Mobile App developer
+designation: Mobile Software Engineer
 # your company information
 company:
   name: Christopher Vikner AB - Living in Skövde, Sweden
@@ -18,7 +18,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate mobile app developer with 9 years of working experience, with a five-year-long game programming education as a foundation. The first few years I worked as a consultant, helping businesses of varying sizes with their mobile applications. Currently I am self employed working as an consultant.'
+summary: "I am a mobile software engineer based in Skövde, Sweden, working professionally since 2014. I studied Games & Software Engineering at Blekinge Institute of Technology, but did not finish the degree. My work has covered native iOS and Android apps, both as a consultant and at Sleep Cycle. I am now self-employed through Christopher Vikner AB, working as a Senior iOS Developer on contract at HiQ with a focus on navigation and connected electric vehicles."
 resume: "files/resume.pdf"
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -27,11 +27,11 @@ socialLinks:
   icon: "fas fa-envelope"
   url: "christopher.vikner@gmail.com"
 
-- name: Github
+- name: GitHub
   icon: "fab fa-github"
   url: "https://github.com/ClockWise89"
 
-- name: Stackoverflow
+- name: Stack Overflow
   icon: "fab fa-stack-overflow"
   url: "https://stackoverflow.com/users/4148782/clockwise"
 

@@ -1,0 +1,26 @@
+{{ define "header" }}
+<link rel="stylesheet" href="{{ "/css/layouts/list.css" | relURL }}">
+<link rel="stylesheet" href="{{ "/css/navigators/sidebar.css" | relURL }}">
+<link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
+<link rel="stylesheet" href="{{ "/css/portfolio.css" | relURL }}">
+{{ end }}
+
+{{ define "navbar" }}{{ partial "navigators/navbar-2.html" . }}{{ end }}
+{{ define "sidebar" }}{{ partial "portfolio/sidebar.html" . }}{{ end }}
+
+{{ define "content" }}
+<section class="content-section" id="content-section">
+  <div class="content container-fluid" id="content">
+    <div class="portfolio-intro">
+      <h1>{{ .Title }}</h1>
+      {{ .Content }}
+    </div>
+    <div class="container-fluid post-card-holder" id="post-card-holder">
+      {{ range .RegularPages.ByWeight }}
+        {{ partial "cards/post.html" . }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+

@@ -1,0 +1,33 @@
+{{ define "header" }}
+<meta name="description" content="{{ .Description | default .Title }}" />
+<link rel="stylesheet" href="{{ "/css/layouts/single.css" | relURL }}">
+<link rel="stylesheet" href="{{ "/css/navigators/sidebar.css" | relURL }}">
+<link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
+<link rel="stylesheet" href="{{ "/css/portfolio.css" | relURL }}">
+{{ end }}
+
+{{ define "navbar" }}{{ partial "navigators/navbar-2.html" . }}{{ end }}
+{{ define "sidebar" }}{{ partial "portfolio/sidebar.html" . }}{{ end }}
+
+{{ define "content" }}
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      <div class="hero-area col-sm-12 portfolio-hero" style="background-image: url('{{ partial "helpers/get-hero.html" . }}');"></div>
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src="{{ partial "helpers/get-author-image.html" . }}" alt="Christopher Vikner">
+          <h5 class="author-name">{{ partial "helpers/get-author-name.html" . }}</h5>
+          {{ with .Params.period }}<p>{{ . }}</p>{{ end }}
+        </div>
+        <div class="title"><h1>{{ .Title }}</h1></div>
+        <div class="post-content" id="post-content">{{ .Content }}</div>
+        <hr>
+        <a href="{{ "/portfolio/" | relLangURL }}">Back to Portfolio</a>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ define "toc" }}<section class="toc-section" id="toc-section"></section>{{ end }}

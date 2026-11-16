@@ -1,0 +1,17 @@
+<div class="post-card">
+  <div class="card">
+    <a href="{{ .RelPermalink }}" class="post-card-link">
+      <div class="card-head">
+        <img class="card-img-top" src="{{ partial "helpers/get-hero.html" . }}" alt="{{ .Title }}">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">{{ .Title }}</h5>
+        <p class="card-text post-summary">{{ .Summary | plainify | htmlUnescape }}</p>
+      </div>
+    </a>
+    <div class="card-footer">
+      {{ with .Params.period }}<span class="float-left">{{ . }}</span>{{ end }}
+      <a href="{{ .RelPermalink }}" class="float-right btn btn-outline-info btn-sm">{{ i18n "read" }}</a>
+    </div>
+  </div>
+</div>
