@@ -5,7 +5,7 @@ theme: toha-3.8.0
 
 title: "Code and Crayons"
 
-# Publish the existing resume without relocating or changing the document.
+# Publish the approved resume at its existing download URL.
 module:
   mounts:
     - source: static
@@ -32,6 +32,14 @@ outputs:
 # Site parameters
 params:
   background: "images/slategray_bg.jpg"
+
+  customMenus:
+    - name: Portfolio
+      url: /portfolio/
+      showOnFooter: true
+    - name: Contact
+      url: /contact/
+      showOnFooter: true
 
   # Configure the number of section title visible in the top navbar
   topNavbar:

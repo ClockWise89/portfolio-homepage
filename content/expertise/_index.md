@@ -1,56 +1,23 @@
 +++
 date = "2016-11-05T21:05:33+05:30"
 title = "Expertise"
+layout = "profile"
 +++
 
-During my years as an iOS developer I have come across a various range of technologies and solutions. I have worked with people with various competences within UX, design, backend technologies, databases, build servers, project management tools, the list goes on and on. Below are some of the competences I feel confident enough to mention.
+I have worked professionally with native mobile apps since 2014, across consulting projects and product development. My current focus is iOS, navigation and connected electric vehicles.
 
-* **Programming skills**
-	+ Objective-C (Well versed, ~4 years full time)
-	+ Swift (Well versed, +5 years full time)
-	+ C++ (Intermediate, ~4 years on and off during studies)
-	+ C# (Basic, ~1 year)
-	+ Java (Basic, < 1 year)
-	+ Intel Assembly (Basic, < 1 year)
-	+ HLSL (Basic, < 1 year)
-	+ HTML (Basic, < 1 year)
-	+ PHP (Basic, < 1 year)
-	+ CSS (Basic, < 1 year)
-	+ SQL (Basic, < 1 year)
-	+ Python (Basic, < 1 year)
-* **Frameworks**
-	* DirectX10 and DirectX11 (Basic, ~1 year)
-	* SFML (Basic, < 1 year)
-	* FMOD (Basic, < 1 year)
-	* Qt (Basic, < 1 year)
-	* Google Analytics
-	* Firebase
-	* Crashlytics
-	* HockeyApp
-	* Buddybuild
-	* Google API's
-	* Flurry
-* **Tools**
-	* Unity3D (Basic, ~1 year)
-	* Xcode
-	* Visual Studio
-	* LaTex
-	* Xamarin
-	* Github
-	* Bitbucket
-	* Git
-	* CocoaPods
-	* SQLite
-	* MySQL
-	* JIRA
-	* Pivotal Tracker
-	* Hansoft
-	* Trello
-	* Microsoft TFS
-* **Competences**
-	* Game development
-	* Frontend development
-	* iOS development
-	* Scrum
-	* Git flow
-	* Databases
+## Mobile development
+
+Swift, SwiftUI, Objective-C and Kotlin are my main mobile technologies. I have worked with UIKit and Combine, shared networking and business logic through Kotlin Multiplatform Mobile (KMM), and integrated CarPlay, HERE SDK and the Iternio EV Planning API.
+
+At Sleep Cycle I worked on both iOS and Android, from App Experience to Growth. That included Firebase, Leanplum, Amplitude, Google Analytics, remote configuration and supporting backend work.
+
+## Games and 3D
+
+I built and delivered a Godot 4 vehicle experience using GDScript, integrated the Godot runtime into iOS and built an OpenAPI-based bridge between Swift and Godot for live vehicle data. I also have experience with Unity and C#, and used C/C++ and DirectX 10/11 during my Games & Software Engineering studies. The degree is unfinished.
+
+## Tools and delivery
+
+My tools include Xcode, Android Studio, Git, GitHub, VS Code, JIRA and Confluence. I have experience with XCTest, pytest, SwiftPM, GitHub Actions, Fastlane and TestFlight, as well as delivery through the App Store, Google Play and Huawei AppGallery.
+
+I use Codex and MCP for agentic tooling and AI-first development. I also work with Python, SQL and backend tools such as FastAPI, Pydantic, SQLAlchemy and PostgreSQL.

@@ -1,0 +1,5 @@
+{{- $index := slice -}}
+{{- range (where .Site.RegularPages "Layout" "!=" "search") -}}
+  {{- $index = $index | append (dict "title" .Title "hero" (partial "helpers/get-hero.html" .) "date" (.Params.period | default "") "summary" (.Summary | plainify | htmlUnescape) "tags" .Params.tags "categories" .Params.categories "contents" (.Plain | htmlUnescape) "permalink" .Permalink) -}}
+{{- end -}}
+{{- $index | jsonify -}}

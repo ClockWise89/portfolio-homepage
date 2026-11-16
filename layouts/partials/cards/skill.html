@@ -1,0 +1,19 @@
+<div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link"{{ with .url }} href="{{ . }}" target="_blank" rel="noopener"{{ end }}>
+    <div class="card">
+      <div class="card-head d-flex align-items-center">
+        {{ if .logo }}
+          {{ with resources.Get .logo }}
+            {{ $logo := . }}
+            {{ if ne .MediaType.SubType "svg" }}{{ $logo = .Fit "24x24" }}{{ end }}
+            <img class="card-img-xs" src="{{ $logo.RelPermalink }}" alt="">
+          {{ end }}
+        {{ else if .icon }}
+          <i class="{{ .icon }} mr-2" aria-hidden="true"></i>
+        {{ end }}
+        <h5 class="card-title">{{ .name }}</h5>
+      </div>
+      <div class="card-body"><p class="card-text">{{ .summary | markdownify }}</p></div>
+    </div>
+  </a>
+</div>

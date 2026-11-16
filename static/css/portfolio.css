@@ -1,0 +1,68 @@
+.profile-content {
+  min-height: 70vh;
+  padding: 4.5rem 1.5rem 2rem;
+}
+
+.portfolio-intro {
+  padding: 1rem 0.5rem 0;
+}
+
+.sidebar-tree a,
+.profile-content a,
+.post-content a {
+  overflow-wrap: anywhere;
+}
+
+.sidebar-tree {
+  width: 100%;
+  max-width: 100%;
+}
+
+.sidebar-tree a {
+  display: block;
+  white-space: normal;
+  line-height: 1.4;
+  padding: 0.25rem 0;
+}
+
+.post-card .card {
+  width: 100%;
+}
+
+#search-results {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.post-card .card-title,
+.post-card .card-text {
+  text-align: left;
+}
+
+.post-card .card-img-top {
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+}
+
+.portfolio-hero {
+  background-size: contain;
+}
+
+.portfolio-navbar .navbar-toggler {
+  color: inherit;
+}
+
+.portfolio-navbar .navbar-brand {
+  flex: 1;
+  min-width: 0;
+  margin: 0 0.5rem;
+  font-size: 1.125rem;
+  text-align: left;
+}
+
+.portfolio-navbar .navbar-collapse.lang-selector {
+  position: static;
+  flex: 0 0 auto;
+  width: auto;
+}

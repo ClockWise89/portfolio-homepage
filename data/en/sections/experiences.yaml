@@ -11,67 +11,92 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: HiQ AB
+    url: "https://hiq.se/"
+    location: Remote, Sweden
+    overview: As an iOS developer contractor at HiQ Gothenburg, I work on navigation and connected-vehicle projects using modern Apple technologies and CarPlay.
+  positions:
+  - designation: Senior iOS Developer (Contract)
+    start: Sep 2023
+    responsibilities:
+    - "Project 1: An electric-vehicle navigation companion app for a global automotive OEM, using Swift, SwiftUI, Kotlin, KMM, CarPlay, HERE SDK and the Iternio EV Planning API."
+    - Worked with the manufacturer's vehicle ecosystem on battery-consumption estimates, charging-cost estimates along planned routes and vehicle-state push notifications. Networking and some business logic were shared with Android through KMM.
+    - "Project 2 (current): A connected-vehicle companion app for an EV manufacturer startup in Saudi Arabia, through HiQ and WirelessCar, using Swift, SwiftUI, Godot 4, GDScript and OpenAPI."
+    - Work across the native iOS app and its connections to shared modules and connected-vehicle services.
+    - Built and delivered the Godot-based 3D vehicle experience independently, integrating the Godot runtime into iOS and building an OpenAPI-based bridge between Swift and Godot to display live vehicle data.
+    - Use agentic tooling and AI-first development with Codex and MCP.
+- company:
     name: Christopher Vikner AB
     location: Skövde, Sweden
     # company overview
-    overview: My own consultant company, focusing on native app development.
+    overview: My own consulting company, focusing on native iOS and Android development. I founded the company in May 2023.
   positions:
-  - designation: Mobile Applications Developer
-    start: May 2023
+  - designation: Freelancer
+    start: Aug 2023
+    responsibilities:
+    - Native iOS and Android development using Objective-C, Swift and Kotlin, with Python for supporting work.
 - company:
     name: Sleep Cycle AB
     url: "https://www.sleepcycle.com"
     location: Gothenburg, Sweden
     # company overview
-    overview: Sleep Cycle AB is a world leading tech company, within the space of sleep tracking. They develop the mobile application Sleep Cycle, which tracks, and analyses the users sleep.
+    overview: Sleep Cycle AB is a world-leading tech company in sleep tracking. Its mobile application Sleep Cycle tracks and analyses users' sleep.
   positions:
-  - designation: Mobile Applications Developer
+  - designation: iOS & Android Native Developer
     start: Aug 2017
-    end: May 2023
+    end: Aug 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Implementing, and testing, features on iOS using Objective-C and Swift.
-    - Implementing, and testing, features on Android using Java, and Kotlin.
-    - Developing features with focus on App Experience.
-    - Developing features with focus on business to business.
-    - Developing features with focus on growth.
-    - Minor backend implementations using Python3.
-    - Remote config and analytics implementations.
+    - Implemented and tested features on iOS using Objective-C and Swift.
+    - Implemented and tested features on Android using Java and Kotlin.
+    - Developed features focused on App Experience, growth and business-to-business services.
+    - Worked on remote configuration, analytics, reviews, conversion metrics and supporting backend features using Python 3.
+- company:
+    name: CYBM
+    location: Gothenburg, Sweden
+    overview: An after-work project I co-founded with five others alongside my full-time employment.
+  positions:
+  - designation: Frontend Developer, Co-owner
+    start: Feb 2017
+    end: Mar 2018
+    responsibilities:
+    - Developed OneWin, a social platform for exercise and fitness challenges, using Swift and Java.
+    - Worked on development and project management. We released apps on the App Store and Google Play before closing the project when it could not sustain its costs.
 - company:
     name: HiQ AB
     url: "https://hiq.se/"
     location: Gothenburg, Sweden
-    overview: HiQ is a consultant company within the tech space, with employees as well as clients all over the globe.
+    overview: HiQ is a technology consulting company. This period includes my initial placement at HiQ while employed by New Minds from Sep 2014 to Oct 2015, before becoming a direct HiQ employee.
   positions:
-  - designation: Mobile Applications Developer
-    start: Okt 2015
+  - designation: iOS Native Developer
+    start: Sep 2014
     end: Jun 2017
     responsibilities:
-    - Implementing, and testing, features in client iOS applications using Objective-C and Swift.
-    - Partake in weekly meetings with both clients and HiQ, regarding progress in different projects.
-    - Releasing applications for clients using various tools like Buddybuild and HockeyApp (Visual Studio App Center).
+    - Implemented and tested features in client iOS applications using Objective-C and Swift.
+    - Took part in weekly meetings with clients and HiQ about project progress.
+    - Released client applications using tools such as TestFlight, Buddybuild and HockeyApp.
 
 - company:
     name: New Minds AB
     url: "https://newminds.se/"
     location: Gothenburg, Sweden
-    overview: New Minds is a company which helps newly graduated tech students get into the industry.
+    overview: New Minds employed me and placed me at HiQ. These dates are included in the HiQ period above.
   positions:
   - designation: Junior Software Developer
     start: Sep 2014
-    end: Okt 2015
+    end: Oct 2015
     responsibilities:
-    - Programming their mobile application, JAPPA, for iOS and Android using C# and Xamarin.
-    - Programming native mobile applications for iOS, using Objective-C and Swift.
+    - Programmed the JAPPA mobile application for iOS and Android using C# and Xamarin.
+    - Programmed native iOS applications using Objective-C and Swift during my HiQ placement.
 
 - company:
     name: Mjölnir Games
     location: Karlskrona, Sweden
     overview: Independent game development studio, working on an extracurricular "school project".
   positions:
-  - designation: Co-owner
+  - designation: Testing & Development, Co-owner
     start: Aug 2013
     end: May 2014
     responsibilities:

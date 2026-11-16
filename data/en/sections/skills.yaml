@@ -14,19 +14,43 @@ skills:
 
 - name: Swift
   logo: /images/sections/skills/swift.png
-  summary: "Using as main language for professional development on iOS, and the language I have used the most these past years."
+  summary: "My main language for professional iOS development, including navigation and connected-vehicle apps."
+
+- name: SwiftUI
+  icon: "fab fa-swift"
+  summary: "I build native iOS interfaces in SwiftUI. The EV navigation app was built in SwiftUI apart from the code required for CarPlay."
 
 - name: Objective-C
   logo: /images/sections/skills/objc.png
-  summary: "Usually only used to convert to Swift, but the first years of my career everything was written in Objective-C on iOS."
+  summary: "I used Objective-C extensively in the first years of my iOS career and have worked on migrating code to Swift."
 
 - name: Kotlin
   logo: /images/sections/skills/kotlin.png
-  summary: "The past few years I have been focusing on Android, where Kotlin has been the main programming language. I do have experience with JAVA as well though."
+  summary: "I used Kotlin for native Android development at Sleep Cycle and for shared mobile code with KMM. I also have experience with Java."
 
-- name: Huawei / Google Play / App Store
+- name: Kotlin Multiplatform Mobile (KMM)
+  icon: "fas fa-mobile-alt"
+  summary: "I have worked with networking and business logic shared between iOS and Android through KMM."
+
+- name: CarPlay & EV navigation
+  icon: "fas fa-car"
+  summary: "Experience with CarPlay integration, HERE SDK maps and the Iternio EV Planning API in an electric-vehicle navigation app."
+
+- name: Godot 4 & GDScript
+  icon: "fas fa-cube"
+  summary: "I built a 3D vehicle experience in Godot and integrated its runtime into a native iOS app."
+
+- name: OpenAPI
+  icon: "fas fa-code"
+  summary: "I built an OpenAPI-based bridge between Swift and Godot to display live vehicle data in the 3D experience."
+
+- name: Codex & MCP
+  icon: "fas fa-terminal"
+  summary: "I use Codex and MCP for agentic tooling and AI-first development."
+
+- name: Huawei AppGallery / Google Play / App Store
   logo: /images/sections/skills/appstore.png
-  summary: "I have experience on all stores, but deploying and managing has primarily been done on App Store."
+  summary: "I have experience with all three stores, with most of my deployment and management work on the App Store."
 
 - name: Git
   logo: /images/sections/skills/git.png
@@ -34,16 +58,20 @@ skills:
 
 - name: Unity
   logo: /images/sections/skills/unity.png
-  summary: "By no means new to me, since I have dabbled in it on and off for the past 10 years. But the past year I have been more serious, and really focused on learning this platform for developing games."
+  summary: "I have used Unity for game development, including Way of the Knight with Mjölnir Games, and for personal projects."
 
 - name: C/C++
   logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used as the primary language when studing my M.S.E. Nothing I have used professionally though."
+  summary: "I used C/C++ while studying Games & Software Engineering, including game engine development with DirectX. I have not used it professionally."
 
 - name: C#
   logo: /images/sections/skills/csharp.png
-  summary: "Mainly used for programming in Unity, but also what I used for my masters thesis project."
+  summary: "Mainly used for programming in Unity, but also for my master's thesis project during my unfinished degree."
+
+- name: Python
+  icon: "fab fa-python"
+  summary: "I have used Python 3 for supporting backend work and tooling."
 
 - name: JIRA + Confluence
   logo: /images/sections/skills/jira.png
-  summary: "The issue tracker, and documentation tool, I used primarily at Sleep Cycle."
+  summary: "The issue tracking and documentation tools I used primarily at Sleep Cycle."

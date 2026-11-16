@@ -1,0 +1,13 @@
+{{ $url := "" }}
+{{ if .Params.image }}
+  {{ $url = .Params.image | relURL }}
+{{ else }}
+  {{ $hero := .Resources.GetMatch "hero.{jpg,png,svg}" }}
+  {{ with .Params.hero }}
+    {{ $hero = $.Resources.Get . }}
+    {{ if not $hero }}{{ $hero = resources.Get . }}{{ end }}
+  {{ end }}
+  {{ if not $hero }}{{ $hero = resources.Get "images/default-hero.jpg" }}{{ end }}
+  {{ with $hero }}{{ $url = .RelPermalink }}{{ end }}
+{{ end }}
+{{ return $url }}

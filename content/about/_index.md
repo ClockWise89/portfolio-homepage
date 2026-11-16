@@ -1,20 +1,24 @@
 +++
 date = "2018-06-10T10:00:33+05:30"
 title = "Code and Crayons"
+layout = "profile"
 +++
 
-The guy behind **Code and Crayons** is me - Christopher. I reside in Gothenburg, Sweden, together with my wife and our daughter. I am an avid gamer and technology enthusiast which, of course, greatly influenced my choice of career.
+The guy behind **Code and Crayons** is me - Christopher. I am a Mobile Software Engineer based in Skövde, Sweden. I am an avid gamer and technology enthusiast, which has greatly influenced my choice of career.
 
-In 2009 I started the Civilengineering in Game and Software Development programme at Blekinge Institute of Technology in Karlskrona, Sweden. It was a five year long education with focus on C++ and game development. When I completed my studies I moved back to Gothenburg looking for employment within the game industry, but it was a lot harder to find employment within this field than I had imagined. I was offered a position as a junior mobile developer at HiQ through a consultant company known as New Minds, and has since 2014 worked with precisely that.
+From August 2009 to June 2014 I studied Games & Software Engineering at Blekinge Institute of Technology in Karlskrona, Sweden. The programme focused on C++ and game development, but I did not finish the degree.
 
-After a year at New Minds my contract was turned into an employement at HiQ, where I stayed for another 3 years. During my years at HiQ I have had the opportunity to work for a range of different companies, with various sizes, such as Electrolux, SKF, Essgroup, Parkeringsbolaget, Volvo, and many others.
+I have worked professionally in mobile development since 2014. New Minds employed me and placed me at HiQ from September 2014 to October 2015, after which I became a direct HiQ employee. My first period at HiQ ran from September 2014 to June 2017, including that placement, and involved native iOS apps for clients of different sizes.
 
-After HiQ I decided to try my luck at a product company instead, and found [SleepCycle AB][2] where I have been employed as an iOS developer since 2017. At Sleep Cycle I have had the privilege to work a lot more closely to the everyday user, and with a team that do not compromise with quality, user experience, or code structure. The first year or so I worked on one of their smaller apps, but has since been moved to their flagship app [Sleep Cycle][3] where I work on the iOS version.
+From August 2017 to August 2023 I worked at [Sleep Cycle AB][2] as an iOS & Android Native Developer. I started with Life Cycle and App Experience, then moved into Growth work on Android, including analytics, remote configuration and business-to-business features.
+
+Alongside my employment, I co-founded CYBM and worked on OneWin, a social platform for exercise and fitness challenges, from February 2017 to March 2018. It was an after-work project.
+
+I founded Christopher Vikner AB in May 2023, with my freelance role starting in August 2023. I am self-employed through the company and have worked as a Senior iOS Developer on contract at HiQ since September 2023. My current focus is navigation and connected electric vehicles: first an EV navigation app with SwiftUI, KMM and CarPlay, and now a connected-vehicle companion app through HiQ and WirelessCar. In the current project I also built a Godot-based 3D vehicle experience and its integration with iOS.
 
 <div class="circular">
-	<img src="img/me.png" />	
+	<img src="img/me.png" alt="Christopher Vikner" />
 </div>
-</br>
 <div class="centered">
 	<h2>Christopher Vikner</h2>
 </div>
@@ -22,4 +26,3 @@ After HiQ I decided to try my luck at a product company instead, and found [Slee
 
 
 [2]: https://www.sleepcycle.com/
-[3]: https://itunes.apple.com/app/apple-store/id320606217
